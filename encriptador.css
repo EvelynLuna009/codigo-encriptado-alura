@@ -1,0 +1,167 @@
+body {
+    background: #88cc;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.logo{
+    width: 32px;
+    margin-top: 20px;
+    margin-left: 60px;
+}
+
+main {
+    width: 940px;
+    height: 400px;
+    margin: 0 auto;
+    background: #fff ;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+
+.input-padron {
+    display: block;
+    width: 50%;
+    padding: 15px 10px;
+    border: none;
+    font-size: 20px;
+    text-transform: lowercase;
+    resize: none;
+}
+
+.input-padron:focus {
+    outline: none;
+}
+
+.aviso {
+    font-size: 12px;
+    position: absolute;
+    bottom: 30%;
+    margin: 5px;
+}
+
+.botones {
+    width: 600px;
+    margin-top: 10px;
+    position: absolute;
+    bottom: 0;
+    top: 70%;
+}
+
+.encriptar{
+    width: 240px;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    background: black;
+    color: white;
+    margin: 0 10px 0 0;
+    cursor: pointer;
+}
+
+.encriptar:hover {
+    transform: scale(1.1);
+}
+
+.desencriptar{
+    width: 240px;
+    padding: 15px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background: white;
+    color: black;
+    cursor: pointer;
+}
+
+.desencriptar:hover {
+    transform: scale(1.1);
+}
+
+.resultado {
+    width: 340px;
+    height: 365px;
+    background: #88cc;
+    padding: 15px;
+    margin-right: 20px;
+    position: absolute;
+    top: 15%;
+    right: 15%;
+    border-radius: 5px;
+    
+}
+
+.salida-resultado {
+    width: 100%;
+    height: 300px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: top;
+    padding: 15px;
+    box-sizing: border-box;
+    text-transform: lowercase;
+    resize: none;
+}
+
+.salida-resultado:focus {
+    outline: none;
+}
+
+.boton-copiar {
+    width: 240px;
+    padding: 15px;
+    display: block;
+    margin: 10px auto;
+    border: none;
+    border-radius: 5px;
+    color: #000;
+    cursor: pointer;
+    font-size: medium;
+    font-weight: bold;
+}
+
+.mis-datos{
+    text-align: center;
+    margin-top: 1%;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 480px) {
+    body {
+        width: 400px;
+    }
+
+    .logo {
+        width: 150px;
+        margin-top: 70px;
+        margin-left: 220px;
+    }
+
+    main {
+        text-align: center;
+        width: 450px;
+        height: 250px;
+        margin: 60px;
+    }
+
+    .botones {
+        top: 74%;
+        left: 5px;
+    }
+
+    .resultado {
+        width: 450px;
+        margin: 140% 0 0;
+        top: 20%;
+        left: 60px;
+    }
+    
+    .mis-datos {
+        position: absolute;
+        bottom: -35%;
+        right: 0;
+        font-size: 20px;
+    }
+}
